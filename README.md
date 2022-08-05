@@ -1,3 +1,5 @@
 # As-A
-This is As-A.....
-Welcome to As-A. As-A, we are now doing As-A moment. So, you can As-A if you like to create TOP 10 `As-A` MOMENTS.
+
+***
+
+Sorry for the weird name. This is just a repo for the side projects, mainly in JS. Other projects may be included later....
