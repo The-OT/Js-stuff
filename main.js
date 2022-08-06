@@ -3,13 +3,13 @@ const btnDecrease = document.querySelector(".decrease")
 const showCount = document.querySelector(".count")
 
 let count = 0
+const valueChangingFunc = (increment) => () =>{
+  increment === true ? count++ : count--
+  showCount.textContent = count
+}
 
-btnIncrease.addEventListener("click", () => {
-  count++
-  showCount.textContent = count;
-})
+btnIncrease.addEventListener("click", valueChangingFunc(true))
 
-btnDecrease.addEventListener("click", () => {
-  count--
-  showCount.textContent = count;
-})
+btnDecrease.addEventListener("click", valueChangingFunc(false))
+
+
